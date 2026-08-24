@@ -7,16 +7,20 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.curexel.com"),
   openGraph: {
     title: "Curexel",
-    description: "Curexel Technologies Pvt Ltd - Pioneering painless injections",
+    description:
+      "Curexel Technologies Pvt Ltd - Pioneering painless injections",
     url: "https://www.curexel.com",
     siteName: "Curexel",
     type: "website",
-    images: [{ url: "/images/og.png", width: 512, height: 512, alt: "Curexel" }],
+    images: [
+      { url: "/images/og.png", width: 512, height: 512, alt: "Curexel" },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Curexel",
-    description: "Curexel Technologies Pvt Ltd - Pioneering painless injections",
+    description:
+      "Curexel Technologies Pvt Ltd - Pioneering painless injections",
     images: ["/images/og.png"],
   },
   robots: {
