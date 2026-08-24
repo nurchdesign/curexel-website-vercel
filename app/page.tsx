@@ -42,6 +42,7 @@ const team = [
   ["asset-08.png", "Kedar Badnikar", "Founder @ Curexel Technologies"],
 ];
 const asset = (name: string) => `/figma/updated/${name}`;
+const demoUrl = "https://forms.gle/KXAMaiSyr3zw2aQYA";
 
 export default function Home() {
   return (
@@ -61,7 +62,7 @@ export default function Home() {
           <a href="#story">Our Story</a>
           <a href="#team">Team</a>
           <a href="#contact">Contact Us</a>
-          <a className="button compact" href="#book">
+          <a className="button compact" href={demoUrl}>
             Book a Demo
           </a>
         </nav>
@@ -76,7 +77,7 @@ export default function Home() {
             <a href="#story">Our Story</a>
             <a href="#team">Team</a>
             <a href="#contact">Contact Us</a>
-            <a className="button compact" href="#book">
+            <a className="button compact" href={demoUrl}>
               Book a Demo
             </a>
           </div>
@@ -103,7 +104,7 @@ export default function Home() {
             Every year, 24 billion injections cause fear and skipped treatments.
             We’re changing that — one painless shot at a time.
           </p>
-          <a className="button" href="#book">
+          <a className="button" href={demoUrl}>
             Book a Demo
           </a>
         </div>
@@ -241,10 +242,7 @@ export default function Home() {
             your healthcare facility.
           </p>
         </div>
-        <a
-          className="button"
-          href="mailto:info@curexel.com?subject=Book%20a%20Curexel%20demo"
-        >
+        <a className="button" href={demoUrl}>
           Book a Demo
         </a>
       </section>
@@ -259,7 +257,7 @@ export default function Home() {
         </div>
         <div>
           <h3>Quick Links</h3>
-          <a className="button compact" href="#book">
+          <a className="button compact" href={demoUrl}>
             Book a Demo
           </a>
           <a href="#applications">Applications</a>
