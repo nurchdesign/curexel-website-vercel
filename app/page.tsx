@@ -62,7 +62,12 @@ export default function Home() {
           <a href="#story">Our Story</a>
           <a href="#team">Team</a>
           <a href="#contact">Contact Us</a>
-          <a className="button compact" href={demoUrl}>
+          <a
+            className="button compact"
+            href={demoUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Book a Demo
           </a>
         </nav>
@@ -77,7 +82,12 @@ export default function Home() {
             <a href="#story">Our Story</a>
             <a href="#team">Team</a>
             <a href="#contact">Contact Us</a>
-            <a className="button compact" href={demoUrl}>
+            <a
+              className="button compact"
+              href={demoUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Book a Demo
             </a>
           </div>
@@ -104,7 +114,12 @@ export default function Home() {
             Every year, 24 billion injections cause fear and skipped treatments.
             We’re changing that — one painless shot at a time.
           </p>
-          <a className="button" href={demoUrl}>
+          <a
+            className="button"
+            href={demoUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Book a Demo
           </a>
         </div>
@@ -229,7 +244,12 @@ export default function Home() {
           <p>
             <strong>Email:</strong> info@curexel.com
           </p>
-          <a className="button" href="https://wa.me/918867286690">
+          <a
+            className="button"
+            href="https://wa.me/918867286690"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Connect with Us
           </a>
         </div>
@@ -242,7 +262,12 @@ export default function Home() {
             your healthcare facility.
           </p>
         </div>
-        <a className="button" href={demoUrl}>
+        <a
+          className="button"
+          href={demoUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Book a Demo
         </a>
       </section>
@@ -257,7 +282,12 @@ export default function Home() {
         </div>
         <div>
           <h3>Quick Links</h3>
-          <a className="button compact" href={demoUrl}>
+          <a
+            className="button compact"
+            href={demoUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Book a Demo
           </a>
           <a href="#applications">Applications</a>
@@ -272,12 +302,28 @@ export default function Home() {
             11/A, 5th Main, 2nd Cross, Pramoda Layout, Nayanadahalli, Bengaluru
             – 560039
           </p>
-          <a href="mailto:info@curexel.com">info@curexel.com</a>
+          <a
+            href="mailto:info@curexel.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            info@curexel.com
+          </a>
           <div className="social">
-            <a href="https://www.linkedin.com/company/curexel-technologies/">
+            <a
+              href="https://www.linkedin.com/company/curexel-technologies/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               LinkedIn
             </a>
-            <a href="https://wa.me/918867286690">WhatsApp</a>
+            <a
+              href="https://wa.me/918867286690"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              WhatsApp
+            </a>
           </div>
         </div>
         <small>© Curexel Technologies Pvt Ltd 2025. All rights reserved.</small>
