@@ -228,7 +228,7 @@ export default function Home() {
           <p>
             <strong>Email:</strong> info@curexel.com
           </p>
-          <a className="button" href="https://wa.me/919876543210">
+          <a className="button" href="https://wa.me/918867286690">
             Connect with Us
           </a>
         </div>
@@ -279,7 +279,7 @@ export default function Home() {
             <a href="https://www.linkedin.com/company/curexel-technologies/">
               LinkedIn
             </a>
-            <a href="https://wa.me/919876543210">WhatsApp</a>
+            <a href="https://wa.me/918867286690">WhatsApp</a>
           </div>
         </div>
         <small>© Curexel Technologies Pvt Ltd 2025. All rights reserved.</small>
