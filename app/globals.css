@@ -48,6 +48,9 @@ nav {
   gap: 56px;
   font-size: 22px;
 }
+.mobile-menu {
+  display: none;
+}
 .button {
   display: inline-flex;
   align-items: center;
@@ -363,8 +366,33 @@ footer .button {
   font-size: 18px;
 }
 .social {
-  font-size: 28px;
-  letter-spacing: 8px;
+  display: flex;
+  gap: 20px;
+}
+.social a {
+  margin: 0;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.back-to-top {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 4;
+  display: grid;
+  width: 64px;
+  height: 64px;
+  place-items: center;
+  border: 2px solid var(--ink);
+  border-radius: 50%;
+  background: var(--yellow);
+  color: var(--ink);
+  font-size: 36px;
+  line-height: 1;
+  box-shadow: 0 3px 0 var(--ink);
+}
+.back-to-top:hover {
+  background: #ffe994;
 }
 footer small {
   position: absolute;
@@ -396,17 +424,59 @@ footer small {
     padding: 9px 10px;
     font-size: 12px;
   }
+  nav {
+    display: none;
+  }
+  .mobile-menu {
+    display: block;
+    position: relative;
+  }
+  .mobile-menu summary {
+    display: grid;
+    width: 32px;
+    gap: 5px;
+    cursor: pointer;
+    list-style: none;
+  }
+  .mobile-menu summary::-webkit-details-marker {
+    display: none;
+  }
+  .mobile-menu summary span {
+    display: block;
+    height: 3px;
+    background: var(--ink);
+  }
+  .mobile-menu-links {
+    position: absolute;
+    top: 44px;
+    right: 0;
+    z-index: 3;
+    display: grid;
+    min-width: 210px;
+    gap: 18px;
+    padding: 22px;
+    border: 1px solid var(--ink);
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 5px 0 var(--ink);
+  }
+  .mobile-menu-links a {
+    font-size: 16px;
+  }
+  .mobile-menu-links .button {
+    width: 100%;
+  }
   .hero {
-    height: 630px;
+    height: 950px;
   }
   .hero-photo {
-    object-position: 28% center;
+    object-position: 34% center;
   }
   .hero:after {
     background: rgba(28, 53, 93, 0.08);
   }
   .hero-card {
-    top: 105px;
+    top: 500px;
     left: 20px;
     right: 20px;
     width: auto;
@@ -421,6 +491,9 @@ footer small {
   }
   .hero-card p {
     font-size: 14px;
+  }
+  .hero-card .button {
+    margin-top: 24px;
   }
   .button {
     font-size: 17px;
@@ -519,5 +592,29 @@ footer small {
   footer small {
     font-size: 10px;
     padding: 16px;
+  }
+  .back-to-top {
+    right: 16px;
+    bottom: 16px;
+    width: 56px;
+    height: 56px;
+    font-size: 30px;
+  }
+}
+@media (min-width: 901px) and (max-width: 1100px) {
+  nav {
+    gap: 20px;
+    font-size: 16px;
+  }
+  .hero-card {
+    left: auto;
+    right: 36px;
+  }
+  .contact {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    padding: 64px 36px;
+  }
+  .contact-image {
+    width: 100%;
   }
 }

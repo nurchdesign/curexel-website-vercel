@@ -65,10 +65,26 @@ export default function Home() {
             Book a Demo
           </a>
         </nav>
+        <details className="mobile-menu">
+          <summary aria-label="Open navigation menu">
+            <span />
+            <span />
+            <span />
+          </summary>
+          <div className="mobile-menu-links">
+            <a href="#applications">Applications</a>
+            <a href="#story">Our Story</a>
+            <a href="#team">Team</a>
+            <a href="#contact">Contact Us</a>
+            <a className="button compact" href="#book">
+              Book a Demo
+            </a>
+          </div>
+        </details>
       </header>
       <section className="hero" id="top">
         <Image
-          src={asset("asset-01.jpeg")}
+          src={asset("asset-01.png")}
           alt="Clinician caring for a child"
           fill
           priority
@@ -259,10 +275,18 @@ export default function Home() {
             – 560039
           </p>
           <a href="mailto:info@curexel.com">info@curexel.com</a>
-          <p className="social">in ◎ ◌</p>
+          <div className="social">
+            <a href="https://www.linkedin.com/company/curexel-technologies/">
+              LinkedIn
+            </a>
+            <a href="https://wa.me/919876543210">WhatsApp</a>
+          </div>
         </div>
         <small>© Curexel Technologies Pvt Ltd 2025. All rights reserved.</small>
       </footer>
+      <a className="back-to-top" href="#top" aria-label="Back to top">
+        ↑
+      </a>
     </main>
   );
 }

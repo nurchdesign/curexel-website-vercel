@@ -13,7 +13,12 @@ export const metadata: Metadata = {
     siteName: "Curexel",
     type: "website",
     images: [
-      { url: "/images/og.png", width: 512, height: 512, alt: "Curexel" },
+      {
+        url: "/figma/updated/asset-02.png",
+        width: 512,
+        height: 512,
+        alt: "Curexel",
+      },
     ],
   },
   twitter: {
@@ -21,7 +26,7 @@ export const metadata: Metadata = {
     title: "Curexel",
     description:
       "Curexel Technologies Pvt Ltd - Pioneering painless injections",
-    images: ["/images/og.png"],
+    images: ["/figma/updated/asset-02.png"],
   },
   robots: {
     index: true,
@@ -31,8 +36,8 @@ export const metadata: Metadata = {
     canonical: "https://www.curexel.com",
   },
   icons: {
-    icon: "/images/favicon.png",
-    apple: "/images/favicon.png",
+    icon: "/figma/updated/asset-02.png",
+    apple: "/figma/updated/asset-02.png",
   },
 };
 
