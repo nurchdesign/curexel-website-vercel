@@ -9,7 +9,7 @@ const applications = [
 ];
 const milestones = [
   ["June 2021", "Curexel secured core and follow-up IP patents"],
-  ["November 2021", "Won NIH–Prayas and Startup India grants"],
+  ["November 2021", "Won NIDHI–Prayas and Startup India grants"],
   ["June 2022", "Locked in LOIs with leading clinics and labs"],
   [
     "November 2025",
@@ -95,11 +95,19 @@ export default function Home() {
       </header>
       <section className="hero" id="top">
         <Image
+          src={asset("hero image lg.png")}
+          alt="Clinician caring for a child"
+          fill
+          priority
+          className="hero-photo hero-photo-desktop"
+          sizes="100vw"
+        />
+        <Image
           src={asset("asset-01.png")}
           alt="Clinician caring for a child"
           fill
           priority
-          className="hero-photo"
+          className="hero-photo hero-photo-mobile"
           sizes="100vw"
         />
         <div className="hero-card">
@@ -190,7 +198,7 @@ export default function Home() {
         <div className="copy">
           <h2>Recognition &amp; Press</h2>
           <p>
-            Selected recognition: NDHI–Prayas, Startup India grants, regulatory
+            Selected recognition: NIDHI–Prayas, Startup India grants, regulatory
             accelerators — moving from concept to clinical launch in record
             time.
           </p>

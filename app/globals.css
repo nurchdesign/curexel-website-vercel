@@ -79,6 +79,9 @@ nav {
   object-fit: cover;
   object-position: left center;
 }
+.hero-photo-mobile {
+  display: none;
+}
 .hero:after {
   content: "";
   position: absolute;
@@ -120,6 +123,9 @@ nav {
   margin: 0 0 32px;
   font-size: 24px;
   font-weight: 600;
+}
+.hero-card .button {
+  margin-top: 24px;
 }
 .clinical {
   border: 2px solid #000;
@@ -475,11 +481,17 @@ footer small {
   .hero-photo {
     object-position: 34% center;
   }
+  .hero-photo-desktop {
+    display: none;
+  }
+  .hero-photo-mobile {
+    display: block;
+  }
   .hero:after {
     background: rgba(28, 53, 93, 0.08);
   }
   .hero-card {
-    top: 500px;
+    top: 560px;
     left: 20px;
     right: 20px;
     width: auto;
