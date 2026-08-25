@@ -326,7 +326,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <small>© Curexel Technologies Pvt Ltd 2025. All rights reserved.</small>
+        <small>© Curexel Technologies Pvt Ltd {new Date().getFullYear()}. All rights reserved.</small>
       </footer>
       <a className="back-to-top" href="#top" aria-label="Back to top">
         ↑
