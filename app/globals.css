@@ -225,7 +225,8 @@ footer h2 {
 .milestone {
   display: grid;
   grid-template-columns: 100px 30px 1fr;
-  gap: 12px;
+  column-gap: 12px;
+  row-gap: 16px;
   min-height: 55px;
   align-items: start;
 }
@@ -554,8 +555,9 @@ footer small {
     font-size: 15px;
   }
   .milestone {
-    grid-template-columns: 84px 20px 1fr;
-    gap: 8px;
+    grid-template-columns: 100px 20px 1fr;
+    column-gap: 8px;
+    row-gap: 12px;
     font-size: 14px;
   }
   .partners > div {

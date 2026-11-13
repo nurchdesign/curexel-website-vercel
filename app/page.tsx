@@ -8,13 +8,15 @@ const applications = [
   ["Diabetes", "application-diabetes.svg"],
 ];
 const milestones = [
-  ["June 2021", "Curexel secured core and follow-up IP patents"],
-  ["November 2021", "Won NIDHI–Prayas and Startup India grants"],
-  ["June 2022", "Locked in LOIs with leading clinics and labs"],
+  ["October 2023", "Company founded."],
+  ["May 2024", "Filed foundational IP patent."],
+  ["June 2024", "Secured LOIs from leading clinics and labs."],
+  ["January 2025", "Won NIDHI-PRAYAS grant and Startup India grant."],
   [
     "November 2025",
-    "Joined top regulatory accelerators, and opened its CDSCO Class B approval doors",
+    "Joined leading regulatory accelerators, advancing CDSCO Class B approval.",
   ],
+  ["June 2026", "Patent granted."],
 ];
 const partners = [
   "asset-06.png",
