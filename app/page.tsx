@@ -9,9 +9,9 @@ const applications = [
 ];
 const milestones = [
   ["October 2023", "Company founded."],
+  ["January 2024", "Won NIDHI-PRAYAS grant and Startup India grant."],
   ["May 2024", "Filed foundational IP patent."],
   ["June 2024", "Secured LOIs from leading clinics and labs."],
-  ["January 2024", "Won NIDHI-PRAYAS grant and Startup India grant."],
   [
     "November 2025",
     "Joined leading regulatory accelerators, advancing CDSCO Class B approval.",
